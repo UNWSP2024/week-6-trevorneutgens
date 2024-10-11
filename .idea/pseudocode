@@ -1,0 +1,21 @@
+Pseudocode for Monthly Tax Rate program:
+
+
+
+CREATE  a function that calculates tax
+  CALCULATE  county sales tax by multiplying total sales by 0.025
+  STORE  county sales tax as a variable called “county_tax”
+  CALCULATE  state sales tax by multiplying total sales by 0.05
+  STORE  state sales tax as a variable called “state_tax”
+  CALCULATE  total tax by multiplying county tax and state tax
+  STORE  total tax as a variable called “total tax”
+
+CREATE  a function that prompts for total sales and then displays the values
+  PROMPT  for total sales 
+  CALL  the function that calculates sales tax with the value that was received
+  DISPLAY  county sales tax
+  DISPLAY  state sales tax
+  DISPLAY  total sales tax
+
+
+CALL  the function that prompts for total sales and then displays the values
